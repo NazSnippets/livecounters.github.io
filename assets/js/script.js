@@ -8,7 +8,7 @@
     const chnllogo = document.getElementById('chnllogo');
     //divs
     const views = document.getElementById('views');
-    const delay = 1000; // 10 min
+    const delay = 10000; // 10 min
 
     let getSubscribers = () => {
 
@@ -18,7 +18,6 @@
             return response.json()
         })
         .then(data => {
-            console.log(data);
 
             document.title = data["items"][0].snippet.title + " 's Channel Stats ";
 
