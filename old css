@@ -1,0 +1,36 @@
+body {
+    background: #f6f6f6;
+    font-family: Roast Chicken;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform : translateX(-50%) translateY(-50%);
+    text-align: center;
+    padding: 100px;
+}
+/* 
+.container{
+    font-family: Roast Chicken;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform : translateX(-50%) translateY(-50%);
+    text-align: center;
+    padding: 100px;
+} */
+
+
+#sub-btn{
+    background-color: rgb(255, 0, 0);
+    border-radius: 2px;
+    color: white;
+    padding: 4px;
+    margin: 4px;
+    white-space: nowrap;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: row;
+    width: 50px;
+}
+

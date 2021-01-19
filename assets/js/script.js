@@ -1,30 +1,39 @@
 
     const youtubeKey = 'AIzaSyC1Dz3mDyUn7ftZ7Gaj36ILi_IzkR1jnEY';
-    const youtubeUser = 'UCAW-NpUFkMyCNrvRSSGIvDQ';
+    const youtubeUser = 'UCOQVUMf1zqKztzusLVBK0eQ';
 
     // Divs
     const subs = document.getElementById('subs');
     const name = document.getElementById('name');
+    const chnllogo = document.getElementById('chnllogo');
+    //divs
     const views = document.getElementById('views');
+    const delay = 1000; // 10 min
 
+    let getSubscribers = () => {
 
-        fetch(`https://www.googleapis.com/youtube/v3/channels?part=statistics&id=${youtubeUser}&key=${youtubeKey}`)
+        fetch(`https://www.googleapis.com/youtube/v3/channels?part=statistics,snippet&id=${youtubeUser}&key=${youtubeKey}`)
+        // fetch('../../api.json')
         .then(response => {
             return response.json()
         })
         .then(data => {
             console.log(data);
-            // subs.innerHTML = data["items"][0].statistics.subscriberCount;
-            // name.innerHTML = data["items][0].statistics.title;
-            // views.innerHTML = data["items][0].statistics.title;
+
+            document.title = data["items"][0].snippet.title + " 's Channel Stats ";
+
+            let logourl = data["items"][0].snippet.thumbnails.high.url;
+
+            subs.innerHTML = data["items"][0].statistics.subscriberCount;
+            views.innerHTML = data["items"][0].statistics.viewCount;
+            name.innerHTML = data["items"][0].snippet.title;
+            chnllogo.src = logourl;
+
 
         })
 
+    }
 
-
-let updatestats = () => {
-subs.innerHTML = 'i'
-}
     setInterval(() => {
-        updatestats();
-    }, 1000);
+        getSubscribers();
+    }, delay);

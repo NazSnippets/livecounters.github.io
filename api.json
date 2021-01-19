@@ -1,0 +1,49 @@
+{
+  "kind": "youtube#channelListResponse",
+  "etag": "dfNleLDYMSWNWis7Zhxu79Xt6yE",
+  "pageInfo": {
+    "totalResults": 1,
+    "resultsPerPage": 5
+  },
+  "items": [
+    {
+      "kind": "youtube#channel",
+      "etag": "RmZBA8gN9_5iRueWUunA9kfalWo",
+      "id": "UCAW-NpUFkMyCNrvRSSGIvDQ",
+      "snippet": {
+        "title": "Ninja",
+        "description": "Tyler \"Ninja\" Blevins is a professional Battle Royale Player and Streamer. He currently is playing Fortnite, Valorant, and Warzone\n*Accomplishments*\n- 1st Place Fortnite Celebrity Pro-Am Tournament E3 2018\n- 1st Place PUBG Squads Gamescom Invitational 2017\n- 2nd Place H1Z1 5s Dreamhack 2017\n- 1st Place H1Z1 Invitational 2015\n- 1st Place Halo 4 Dallas 2012\n- 1st Place AGL 8 Knoxville\n\nHe is known for his goofy energetic personality and his incredible impressions.\n\nBe sure to check out the official #TeamNinja brand: www.teamninja.com",
+        "customUrl": "ninja",
+        "publishedAt": "2011-11-11T06:17:51Z",
+        "thumbnails": {
+          "default": {
+            "url": "https://yt3.ggpht.com/ytc/AAUvwnjr0yv7VKDZVgTVKU28P9ApPgt8nBaQwZjc78OOiw=s88-c-k-c0x00ffffff-no-rj",
+            "width": 88,
+            "height": 88
+          },
+          "medium": {
+            "url": "https://yt3.ggpht.com/ytc/AAUvwnjr0yv7VKDZVgTVKU28P9ApPgt8nBaQwZjc78OOiw=s240-c-k-c0x00ffffff-no-rj",
+            "width": 240,
+            "height": 240
+          },
+          "high": {
+            "url": "https://yt3.ggpht.com/ytc/AAUvwnjr0yv7VKDZVgTVKU28P9ApPgt8nBaQwZjc78OOiw=s800-c-k-c0x00ffffff-no-rj",
+            "width": 800,
+            "height": 800
+          }
+        },
+        "localized": {
+          "title": "Ninja",
+          "description": "Tyler \"Ninja\" Blevins is a professional Battle Royale Player and Streamer. He currently is playing Fortnite, Valorant, and Warzone\n*Accomplishments*\n- 1st Place Fortnite Celebrity Pro-Am Tournament E3 2018\n- 1st Place PUBG Squads Gamescom Invitational 2017\n- 2nd Place H1Z1 5s Dreamhack 2017\n- 1st Place H1Z1 Invitational 2015\n- 1st Place Halo 4 Dallas 2012\n- 1st Place AGL 8 Knoxville\n\nHe is known for his goofy energetic personality and his incredible impressions.\n\nBe sure to check out the official #TeamNinja brand: www.teamninja.com"
+        },
+        "country": "US"
+      },
+      "statistics": {
+        "viewCount": "2378634410",
+        "subscriberCount": "24200000",
+        "hiddenSubscriberCount": false,
+        "videoCount": "1277"
+      }
+    }
+  ]
+}
