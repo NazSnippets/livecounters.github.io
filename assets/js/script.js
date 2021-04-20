@@ -1,5 +1,5 @@
 
-    const youtubeKey = 'AIzaSyC1Dz3mDyUn7ftZ7Gaj36ILi_IzkR1jnEY';
+    const youtubeKey = 'AIzaSyChI_S2BukXMCPpK2gHIMKUrPG64w1Yi0k';
     const youtubeUser = 'UCB9cm2UuiaqCpXsAZ-5CnSA';
 
     // Divs
